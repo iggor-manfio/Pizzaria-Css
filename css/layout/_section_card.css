@@ -1,7 +1,7 @@
 .cards{
     display: flex;
     gap: 36px;
-    margin-left: 7%;
+    overflow: hidden;
 }
 .img_pizza {
   width: 150px;
