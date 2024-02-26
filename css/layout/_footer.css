@@ -1,0 +1,36 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.logo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.logo-footer>img {
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 600px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-footer {
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+}
